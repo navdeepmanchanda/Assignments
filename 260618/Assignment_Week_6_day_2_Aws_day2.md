@@ -14,7 +14,7 @@
 -   protected\_route\_table
 
 VPC
-
+![](https://github.com/navdeepmanchanda/Assignments/blob/master/260618/media/VPC.png)
 Subnets:
 
 Route Table:
