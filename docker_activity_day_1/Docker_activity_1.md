@@ -26,16 +26,16 @@ Run a ubuntu 16.04 container
 - Recheck the file inside container.
 
 Solution:
-# docker cp navdeep:/var/log/dpkg.log /home/guggu  ->copy from container to host machine
-# docker exec -it navdeep  -> to enter into container
-# rm -f var/log/dpkg.log  ->to remove file in container
-# ctrl +p+q  ->back to host machine 
-# docker commit -a "Navdeep Manchanda" -m "Commit without dpkg.log file" navdeep log:nav1 ->create image of running container at current state
-# docker rm -f 29901a7554c0  -> to remove container
-# docker run -it log:nav1 bash  -> creation of new container using image
-# docker exec -it 0cfc6d355991 bash   ->enter into new container
-# Checked for dpkg.log file but not found.
-# docker cp  dpkg.log 0cfc6d355991:/var/log ->manually copy dpkg.log file to container
+docker cp navdeep:/var/log/dpkg.log /home/guggu  ->copy from container to host machine
+docker exec -it navdeep  -> to enter into container
+rm -f var/log/dpkg.log  ->to remove file in container
+ctrl +p+q  ->back to host machine 
+docker commit -a "Navdeep Manchanda" -m "Commit without dpkg.log file" navdeep log:nav1 ->create image of running container at current state
+docker rm -f 29901a7554c0  -> to remove container
+docker run -it log:nav1 bash  -> creation of new container using image
+docker exec -it 0cfc6d355991 bash   ->enter into new container
+Checked for dpkg.log file but not found.
+docker cp  dpkg.log 0cfc6d355991:/var/log ->manually copy dpkg.log file to container
                                   
                                   Docker Inspection
 
@@ -49,7 +49,7 @@ Solution:
 docker inspect -f='{{.Config.Env}}{{.Name}}{{.Config.Hostname}}{{range .NetworkSettings.Networks}}{{.IPAddress}}{{.MacAddress}}{{end}}' 0cfc6d355991
 Output:
 [NAME=navdeep ORG=Opstree TEAM=ninja TASK=docker PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin]/suspicious_edison0cfc6d355991172.17.0.302:42:ac:11:00:03
-![]{Docker_day1_ass_1_Pic1.png}
+![](https://github.com/navdeepmanchanda/Assignments/blob/master/docker_activity_day_1/Media/Docker_day1_ass_1_Pic1.png)
                                      
                                      Docker Monitoring:
  Run 2 containers 
@@ -59,4 +59,4 @@ Output:
       - Disk I/O
       - Net I/O
   - List down the process running inside the containers                                     
-![]{Docker_Monitoring.png}
+![](https://github.com/navdeepmanchanda/Assignments/blob/master/docker_activity_day_1/Media/Docker_Monitoring.png)
