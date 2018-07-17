@@ -11,8 +11,8 @@ Run a ubuntu 16.04 container
       - TASK: Docker
   - Set above defined variables from a file
 - Set container default login directory to /var/log
-![]{https://github.com/navdeepmanchanda/Assignments/blob/master/docker_activity_day_1/Media/Docker_activity_day1_Ass_1_pic1.png}
-![]{docker_day1_activity1_ass_1_pic2.png}
+![](https://github.com/navdeepmanchanda/Assignments/blob/master/docker_activity_day_1/Media/Docker_activity_day1_Ass_1_pic1.png)
+![](https://github.com/navdeepmanchanda/Assignments/blob/master/docker_activity_day_1/Media/docker_day1_activity1_ass_1_pic2.png)
 					Docker Lifecycle
 
 - Start an Ubuntu 14.04 container
