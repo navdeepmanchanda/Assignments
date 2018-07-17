@@ -61,3 +61,5 @@ Output:
       - Net I/O
   - List down the process running inside the containers                                     
 ![](https://github.com/navdeepmanchanda/Assignments/blob/master/docker_activity_day_1/Media/Docker_Monitoring.png)
+Solution:
+docker stats --all --format "table {{.Container}}\t{{.CPUPerc}}\t{{.MemUsage}}\t{{.BlockIO}}\t{{.NetIO}}" suspicious_edison tender_elbakyan
