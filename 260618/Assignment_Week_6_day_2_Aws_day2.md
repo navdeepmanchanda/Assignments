@@ -14,13 +14,13 @@
 -   protected\_route\_table
 
 VPC
-
+![](https://github.com/navdeepmanchanda/Assignments/blob/master/260618/media/VPC.png)
 Subnets:
-
+![](https://github.com/navdeepmanchanda/Assignments/blob/master/260618/media/Subnets.png)
 Route Table:
-
+![](https://github.com/navdeepmanchanda/Assignments/blob/master/260618/media/Rote_table.png)
 Internet Gateway:
-
+![](https://github.com/navdeepmanchanda/Assignments/blob/master/260618/media/Route_table.png)
 ------------------------------------------------------------------------------------------------------------------------
 
 ### Task 2
@@ -42,5 +42,9 @@ sudo yum install apache2 php libapache2-mod-php mysql-server libapache2-mod-auth
 scp -i "Public\_2.pem" /home/guggu/Downloads/Private\_2.pem ec2-user@13.127.117.179:/tmp/
 
 Accessing private instances through public Instances.
-
+![](https://github.com/navdeepmanchanda/Assignments/blob/master/260618/media/Private_2_Instance_access.png)
 Load Balancer
+![](https://github.com/navdeepmanchanda/Assignments/blob/master/260618/media/Load-B.png)
+Load Balancer Output
+![](https://github.com/navdeepmanchanda/Assignments/blob/master/260618/media/Load-B-Output-1.png)
+![](https://github.com/navdeepmanchanda/Assignments/blob/master/260618/media/Loab-B-Output-2.png)
