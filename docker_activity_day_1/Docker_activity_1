@@ -11,8 +11,8 @@ Run a ubuntu 16.04 container
       - TASK: Docker
   - Set above defined variables from a file
 - Set container default login directory to /var/log
-![]{}
-![]{}
+![]{Docker_activity_day1_Ass_1_pic1.png}
+![]{docker_day1_activity1_ass_1_pic2.png}
 					Docker Lifecycle
 
 - Start an Ubuntu 14.04 container
@@ -49,6 +49,7 @@ Solution:
 docker inspect -f='{{.Config.Env}}{{.Name}}{{.Config.Hostname}}{{range .NetworkSettings.Networks}}{{.IPAddress}}{{.MacAddress}}{{end}}' 0cfc6d355991
 Output:
 [NAME=navdeep ORG=Opstree TEAM=ninja TASK=docker PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin]/suspicious_edison0cfc6d355991172.17.0.302:42:ac:11:00:03
+![]{Docker_day1_ass_1_Pic1.png}
                                      
                                      Docker Monitoring:
  Run 2 containers 
@@ -58,3 +59,4 @@ Output:
       - Disk I/O
       - Net I/O
   - List down the process running inside the containers                                     
+![]{Docker_Monitoring.png}
