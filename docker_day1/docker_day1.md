@@ -10,7 +10,7 @@ Solution:
 			root@guggu-ThinkPad-T410:/# systemctl start docker
 			root@guggu-ThinkPad-T410:/# systemctl status docker
 		Output:
-			● docker.service - Docker Application Container Engine
+			docker.service - Docker Application Container Engine
    			Loaded: loaded (/lib/systemd/system/docker.service; enabled; vendor 	preset: enabled)
    			Active: active (running) since Sun 2018-07-15 13:18:53 IST; 2 days ago
      			Docs: https://docs.docker.com
@@ -23,7 +23,7 @@ Solution:
 	3.Enable Docker service to start at every machine reboot.
 
 Solution:
-root@guggu-ThinkPad-T410:/# systemctl enable docker
+root@guggu-ThinkPad-T410: systemctl enable docker
 Synchronizing state of docker.service with SysV service script with /lib/systemd/systemd-sysv-install.
 Executing: /lib/systemd/systemd-sysv-install enable docker
 
