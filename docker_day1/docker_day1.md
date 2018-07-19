@@ -33,18 +33,22 @@ Executing: /lib/systemd/systemd-sysv-install enable docker
 		Docker version 18.05.0-ce, build f150324
    
 	5.Configure non root user to run docker commands without sudo
-		Solution:
+	
+Solution:
 			useradd docekr_user
 			groupadd docker
 			usermod -aG docker docker_user
-	-----------------------------------------------------------------------------------
-	6.Type docker on commandline and read output i.e containing related commands.
-There are various commands which can be associated to docker and perform different functions.
-	----------------------------------------------------------------------
+	
+6.Type docker on commandline and read output i.e containing related commands.
+
+Solution. There are various commands which can be associated to docker and perform different functions.
+	
 	7. Display System information using Docker.
-	Solution:
+
+Solution:
 		root@guggu-ThinkPad-T410:$ docker system info
 
-	-------------------------------------------------------------------------------------
+	
 	8.Check whether you can access/download images from DockerHub or not
+	
   ![](https://github.com/navdeepmanchanda/Assignments/blob/master/docker_day1/media/docker_assign_1.png)
