@@ -2,8 +2,8 @@
        Assignment 1:
     1. Use official shell script to install and configure Docker on your control machine.
 Solution:
-	 $ curl -fsSL get.docker.com -o get-docker.sh
-	  $ sh get-docker.sh
+	 curl -fsSL get.docker.com -o get-docker.sh
+	  sh get-docker.sh
 	----------------------------------------------------------
 2.	Start Docker service and check status of the same.
 		Soluation:
