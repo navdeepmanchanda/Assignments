@@ -29,7 +29,7 @@ Synchronizing state of docker.service with SysV service script with /lib/systemd
 Executing: /lib/systemd/systemd-sysv-install enable docker
 
        4. Display Docker version.
-		root@guggu-ThinkPad-T410:/# docker -v
+root@guggu-ThinkPad-T410:/# docker -v
 		Docker version 18.05.0-ce, build f150324
    
 	5.Configure non root user to run docker commands without sudo
