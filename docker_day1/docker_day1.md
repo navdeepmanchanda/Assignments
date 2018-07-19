@@ -35,7 +35,7 @@ root@guggu-ThinkPad-T410:/# docker -v
 	5.Configure non root user to run docker commands without sudo
 	
 Solution:
-			useradd docekr_user
+			useradd docker_user
 			groupadd docker
 			usermod -aG docker docker_user
 	
