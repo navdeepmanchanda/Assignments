@@ -39,7 +39,7 @@ Solution:
 			groupadd docker
 			usermod -aG docker docker_user
 	
-6.Type docker on commandline and read output i.e containing related commands.
+	6.Type docker on commandline and read output i.e containing related commands.
 
 Solution. There are various commands which can be associated to docker and perform different functions.
 	
