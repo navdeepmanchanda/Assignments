@@ -7,7 +7,7 @@ Solution:
 	
 2.	Start Docker service and check status of the same.
 		Soluation:
-			root@guggu-ThinkPad-T410:/# systemctl start docker
+		root@guggu-ThinkPad-T410:/# systemctl start docker
 			root@guggu-ThinkPad-T410:/# systemctl status docker
 		Output:
 			docker.service - Docker Application Container Engine
