@@ -19,18 +19,18 @@ Solution:
    			CGroup: /system.slice/docker.service
            		├─32079 /usr/bin/dockerd -H fd://
            		└─32101 docker-containerd --config /var/run/docker/containerd/containerd.toml
-------------------------------------------------------------------------------
+
 	3.Enable Docker service to start at every machine reboot.
 
 Solution:
 root@guggu-ThinkPad-T410:/# systemctl enable docker
 Synchronizing state of docker.service with SysV service script with /lib/systemd/systemd-sysv-install.
 Executing: /lib/systemd/systemd-sysv-install enable docker
---------------------------------------------------------------------
+
        4. Display Docker version.
 		root@guggu-ThinkPad-T410:/# docker -v
 		Docker version 18.05.0-ce, build f150324
-     --------------------------------------------------------------------
+   
 	5.Configure non root user to run docker commands without sudo
 		Solution:
 			useradd docekr_user
