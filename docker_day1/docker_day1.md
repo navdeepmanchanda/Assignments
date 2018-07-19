@@ -1,11 +1,11 @@
-           Docker assignment Day 1
-       Assignment 1:
+          				 Docker assignment Day 1
+       			Assignment 1:
     1. Use official shell script to install and configure Docker on your control machine.
-Solution:
+Solution
 	 curl -fsSL get.docker.com -o get-docker.sh
 	  sh get-docker.sh
 	
-2.	Start Docker service and check status of the same.
+2	Start Docker service and check status of the same.
 		Soluation:
 		root@guggu-ThinkPad-T410:/# systemctl start docker
 			root@guggu-ThinkPad-T410:/# systemctl status docker
